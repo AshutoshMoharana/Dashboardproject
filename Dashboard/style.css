@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+    height: 107vh;
+    width: 11%;
+    background-color: white;
+    color: white;
+    padding: 5px;
+}
+.container{
+   position: static;
+    margin-top: -49rem;
+    margin-left: 11rem;
+}
+ 
+li {
+  padding: 23px;
+  list-style: none;
+  margin-top: 0;
+}
+
+.user {
+  position: absolute;
+  margin-top: 0px;
+}
+
+
+body {
+  background-color: rgb(18, 18, 104);
+}
+.display-4 {
+  color: darkblue;
+    margin-top: -8rem;
+    position: absolute;
+    margin-left: 0rem;
+    font-size: small;
+}
+
+.rgt {
+  margin-left: 36rem;
+  color: white;
+  margin-top: -51rem;
+  height: 60vh;
+  width: 29%;
+  background-color: black;
+  border-radius: 5rem;
+}
+
+li:hover {
+  background-color: rgb(72, 255, 0);
+}
+
+.rgtimg {
+  /* background-color: none; */
+  height: 50vh;
+  width: 70%;
+  background-color: black;
+}
+#usericon {
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+/* ---media queries-------- */
+
+/* @media screen and (max-width: 798px), screen and (max-height: 560px) {
+  .sidebar {
+    height: 169vh;
+    width: 9%;
+    background-color: white;
+    color: white;
+    padding: 0px;
+  }
+  li {
+    padding: 23px;
+    list-style: none;
+    margin-top: 0;
+  }
+} */

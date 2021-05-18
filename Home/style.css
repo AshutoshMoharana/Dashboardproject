@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.main {
+  position: relative;
+  height: 82vh;
+  width: 97%;
+  background-color: #141e24;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  border-radius: 8rem;
+}
+.inside {
+  position: absolute;
+  height: 72vh;
+  width: 79%;
+  background-color: #15152b;
+  margin-left: 12rem;
+  margin-top: -1rem;
+  border-radius: 6rem;
+}
+
+i {
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+i:hover {
+  color: violet;
+  cursor: pointer;
+}
+p {
+  color: white;
+  margin-top: 7rem;
+  margin-left: 3rem;
+  position: absolute;
+}
+P:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.containt {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 2rem;
+  padding: 0rem;
+  text-decoration: none;
+}
+li {
+  padding: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: tomato;
+}
+
+.pro {
+  height: 13vh;
+  width: 13%;
+  border-radius: 14px;
+  position: absolute;
+  margin-top: 23rem;
+  margin-left: 1rem;
+  background-color: none;
+  text-align: top;
+}
+.getit {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 5px;
+  border-radius: 8px;
+  background-color: lightblue;
+  font-size: 15px;
+}
+.getit:hover {
+  cursor: pointer;
+  background-color: rgb(197, 238, 144);
+}
+#rocket {
+  position: absolute;
+  margin-top: 20px;
+  color: hotpink;
+}
+#rocket:hover {
+  color: red;
+}
+
+.inside > p {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.list-inside {
+  list-style: none;
+  padding: 0;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.list-inside:hover {
+  color: rgb(255, 213, 205);
+  cursor: pointer;
+}
+.list-inside > li {
+  display: inline;
+}
+#plus {
+  color: white;
+  margin-top: -2rem;
+  margin-left: 46rem;
+}
+#plus:hover {
+  color: hotpink;
+  position: absolute;
+}
+
+.inside1 {
+  border-radius: 3rem;
+  position: absolute;
+  height: 40vh;
+  width: 20%;
+  /* background-color: hotpink; */
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+.inside2 {
+  margin-top: 2rem;
+  border-radius: 3rem;
+  position: absolute;
+  height: 40vh;
+  width: 20%;
+  /* background-color: rgb(255, 160, 105); */
+  margin-left: 277px;
+}
+.inside3 {
+  margin-top: 2rem;
+  border-radius: 3rem;
+  position: absolute;
+  height: 40vh;
+  width: 20%;
+  /* background-color: rgb(36, 233, 85); */
+  margin-left: 33rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3rem;
+}
+/* ============media queries------------ */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  p {
+    color: white;
+    margin-top: 7rem;
+    margin-left: 1rem;
+    position: absolute;
+  }
+  .inside {
+    position: absolute;
+    height: 72vh;
+    width: 79%;
+    background-color: #15152b;
+    margin-left: 9rem;
+    margin-top: -1rem;
+    border-radius: 6rem;
+  }
+  .inside3 {
+    margin-top: 2rem;
+    border-radius: 3rem;
+    position: absolute;
+    height: 40vh;
+    width: 20%;
+    /* background-color: rgb(36, 233, 85); */
+    margin-left: 28rem;
+  }
+
+}
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .inside2 {
+      margin-top: 2rem;
+      border-radius: 3rem;
+      position: absolute;
+      height: 40vh;
+      width: 20%;
+
+      margin-left: 243px;
+    }
+  }
+
+/* --------media 480 */
+
+
+  @media all and (max-width: 480px) {
+
+    li {
+        padding: 0rem;
+        list-style: none;
+        text-decoration: none;
+    }
+    .inside2 {
+        margin-top: 2rem;
+        border-radius: 3rem;
+        position: absolute;
+        height: 40vh;
+        width: 20%;
+        margin-left: 136px;
+    }
+    .inside3 {
+        margin-top: 2rem;
+        border-radius: 3rem;
+        position: absolute;
+        height: 40vh;
+        width: 20%;
+        /* background-color: rgb(36, 233, 85); */
+        margin-left: 16rem;
+    }
+    #rocket {
+        position: absolute;
+        margin-top: -114px;
+        color: hotpink;
+    }
+    .getit {
+        position: absolute;
+        margin-top: -72px;
+        margin-left: 19px;
+        border-radius: 8px;
+        background-color: lightblue;
+        font-size: 15px;
+    }
+  }
+
